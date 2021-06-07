@@ -1,0 +1,82 @@
+.parent_cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  background: rgba(113, 168, 235, 0.7);
+}
+
+.background_container img{
+  margin-top: 2vh;
+  min-width: 900px;
+  max-height: 500px;
+}
+
+.profile_img_container{
+  position: relative;
+  bottom: 90px;
+}
+
+
+.profile_img_container img{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100px;
+  position: relative;
+}
+
+.bio_container{
+  font-family: 'Montserrat', 'sans-serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  position: relative;
+  bottom: 70px;
+
+}
+
+table, .browse{
+  font-family: 'Montserrat', 'sans-serif';
+  background: rgba(113, 168, 235, 0.5);
+}
+
+.browse{
+  min-width: 900px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+table{
+  min-width: 900px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+tr{
+  padding: 10px;
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+td a{
+  margin: 10px;
+  font-size: 20px;
+}
+
+
+.varlink{
+  color: black
+}
+
+
+/*#FFCC57*/
